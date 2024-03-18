@@ -5,6 +5,7 @@
     font-family: sans-serif;
 }
 
+
 header{
     border: 1px dashed black;
     /* height: 5rem; */
@@ -56,4 +57,56 @@ header{
 
 .plan-row-left{
     border: 1px solid black;
+}
+
+.enterprise-offer{
+    border: 1px solid black;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* PARTNERING STYLE ------------------------------------------------- */
+.partnering{
+    background-color: rgb(104, 50, 50);
+}
+
+.partnering-container{
+    border: 1px solid black;
+}
+
+/* SPONSOR STYLE---------------------------------------------- */
+
+.sponsor{
+    background-color: aqua;
+}
+/* ------------------------------------------------------------- */
+
+/* FREE TRIAL STYLE---------------------------------------------- */
+
+.free-trial{
+    background-color: rgb(180, 208, 231);
+}
+/* --------------------------------------------------------------- */
+
+
+/* FAQ STYLE ------------------------------------------------------- */
+.faq{
+    background-color: brown;
+}
+/* ------------------------------------------------------------------- */
+
+/* FOOTER STYLE-------------------------------------------------------- */
+
+footer{
+    background-color: black;
+}
+
+footer h3, footer a, i{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-card{
+    display: flex;
+    flex-direction: column;
 }
