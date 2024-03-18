@@ -24,7 +24,7 @@ header{
 
 /* HEADER STYLE END--------------------------------------------- */
 
-/* MAIN STYLE --------------------------------------------------- */
+/* JUMBOTRON STYLE --------------------------------------------------- */
 .jumbotron{
     width: 100%;
     height: 45vh;
@@ -34,4 +34,26 @@ header{
 
 .jumbo{
     border: 1px dashed blue;
+}
+
+
+
+
+
+/* JUMBOTRON END STYLE------------------------------------------------ */
+
+/* OFFER PLAN STYLE----------------------------------------------------- */
+.offer-plan{
+    background-color: yellow;
+}
+.month-plan>*, .annual-plan> *{
+    display: inline-block;
+}
+
+.user-plan{
+    border: solid 1px grey;
+}
+
+.plan-row-left{
+    border: 1px solid black;
 }
