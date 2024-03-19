@@ -254,6 +254,31 @@ header{
 
 .free-trial{
     background-color: rgb(180, 208, 231);
+    height: 20rem;
+    position: relative;
+}
+
+.free-trial-container{
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+    /* text-align: center; */
+    border: 1px solid crimson;
+    display: flex;
+    gap: 8rem;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.free-trial a{
+    background-color: white;
+    padding: 0.3rem 0.7rem;
+    align-self: center;
+}
+
+.free-trial h2{
+    color: rgb(97, 8, 43);
+    padding-top: 1.5rem;
 }
 /* --------------------------------------------------------------- */
 
