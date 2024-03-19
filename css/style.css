@@ -7,7 +7,7 @@
 
 a{
     text-decoration: none;
-    /* color: black; */
+    color: black;
 }
 header{
     width: 100%;
@@ -131,19 +131,19 @@ header{
 
 /* dare dimensioni container */
 .partnering-container{
-    border: 1px dashed yellow;
+    border: 1px dashed black;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1000px;
-    max-height: 500px;
+    width: 1200px;
+    height: 600px;
     margin: 0 auto;
 }
 
 .partnering-left{
-    width: calc(100% / 2);
-    height: calc(100% / 2);
-    border: 1px dashed crimson;
+    width: 70%;
+    height: 70%;
+    /* border: 1px dashed crimson; */
 }
 
 .partnering-left img{
@@ -156,8 +156,23 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* border: 1px solid violet; */
 }
 
+.partnering-right *{
+    padding: 2rem;
+}
+
+.partnering-right p{
+    width: 44%;
+}
+
+.partnering-right a{
+    border: 1px solid black;
+    padding: 0.6rem 0.3rem;
+    width: 20%;
+    margin-left: 2rem;
+}
 /* SPONSOR STYLE---------------------------------------------- */
 
 .sponsor{
