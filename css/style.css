@@ -218,6 +218,31 @@ header{
 }
 
 /* -------------------------------------------------------------- */
+
+/* ABOUT CLIENTS STYLE------------------------------------------ */
+.about-clients{
+    height: 8rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    position: relative;  
+}
+.find-more{
+    position: absolute;
+    left: 13rem;
+}
+
+.find-more h3{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.find-more a{
+    color: blue;
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+/* -------------------------------------------------------------- */
 /* SPONSOR STYLE---------------------------------------------- */
 
 .sponsor{
