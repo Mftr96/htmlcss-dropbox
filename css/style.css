@@ -80,7 +80,7 @@ header{
     background-color: rgb(0, 97, 255);
     color: white;
     width: 60%;
-    padding: 0.3rem;
+    padding: 0.6rem 0.3rem;
 }
 
 
@@ -91,7 +91,12 @@ header{
 
 /* OFFER PLAN STYLE----------------------------------------------------- */
 .offer-plan{
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+
+.plan-option{
+    text-align: center;
+    margin-top: 5rem;
 }
 .month-plan>*, .annual-plan> *{
     display: inline-block;
@@ -101,23 +106,47 @@ header{
     border: solid 1px grey;
 }
 
+.row-offer{
+    border: 1px solid rgb(85, 17, 85);
+    display: flex;
+}
+
 .plan-row-left{
-    border: 1px solid black;
+    border: 1px dashed crimson;
+}
+
+.row-offer hr{
+    width: 10%;
+
 }
 
 .enterprise-offer{
     border: 1px solid black;
 }
 
+
+
 /* ------------------------------------------------------------------ */
 
 /* PARTNERING STYLE ------------------------------------------------- */
 .partnering{
-    background-color: rgb(104, 50, 50);
+    background-color: rgb(105, 85, 85);
 }
 
+/* dare dimensioni container */
 .partnering-container{
-    border: 1px solid black;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 600px;
+    max-height: 300px; */
+}
+
+.partnering-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* SPONSOR STYLE---------------------------------------------- */
