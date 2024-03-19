@@ -142,7 +142,6 @@ header{
 /* PARTNERING STYLE ------------------------------------------------- */
 
 
-/* dare dimensioni container */
 .partnering-container{
     border: 1px dashed black;
     display: flex;
@@ -186,6 +185,39 @@ header{
     width: 20%;
     margin-left: 2rem;
 }
+
+/* ----------------------------------------------------------- */
+
+/* DROPBOX BUSINESS STYLE -------------------------------------- */
+.dropbox-business h3{
+    text-align: center;
+    font-weight: 900;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.business-card{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100% / 3);
+    height: calc(100% / 2);
+}
+
+.card img{
+  width: 50%;
+  height: 50%;
+}
+
+.card p{
+    width: 70%;
+}
+
+/* -------------------------------------------------------------- */
 /* SPONSOR STYLE---------------------------------------------- */
 
 .sponsor{
