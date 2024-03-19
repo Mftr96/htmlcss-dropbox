@@ -81,6 +81,7 @@ header{
     color: white;
     width: 60%;
     padding: 0.6rem 0.3rem;
+    text-align: center;
 }
 
 
@@ -91,13 +92,13 @@ header{
 
 /* OFFER PLAN STYLE----------------------------------------------------- */
 
-
+.fa-check{
+    color: rgb(0, 88, 255);
+}
 .plan-option{
     text-align: center;
     margin-top: 5rem;
-}
-.month-plan>*, .annual-plan> *{
-    display: inline-block;
+    border: 1px solid black;
 }
 
 .user-plan{
@@ -109,13 +110,25 @@ header{
     display: flex;
 }
 
+.row-offer a{
+    color: blue;
+    text-decoration-line: underline;
+}
+
 .plan-row-left{
     border: 1px dashed crimson;
 }
 
+.plan-row-center{
+    border: 1px solid blue;
+}
+
+.plan-row-right{
+    border: 1px solid rgb(255, 0, 255);
+}
+
 .row-offer hr{
     width: 10%;
-
 }
 
 .enterprise-offer{
