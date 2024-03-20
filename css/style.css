@@ -255,13 +255,14 @@ header{
 }
 
 .sponsor-left, .sponsor-right{
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
 }
 
 .sponsor-center{
-    border: 1px dashed crimson;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .sponsor-left, .sponsor-center, .sponsor-right{
@@ -272,7 +273,6 @@ header{
 .square-logo{
     width: calc(100% / 2);
     height: calc(100% / 2);
-    border: 1px dashed black;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -282,6 +282,7 @@ header{
     width: 75%;
     height: 20%;
     align-self: center;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(5deg) brightness(102%) contrast(102%);
 }
 
 .sponsor-left div:first-child{
@@ -314,6 +315,21 @@ header{
 
 .sponsor-right div:last-child {
     background-color: rgb(255, 216, 48);
+}
+
+
+.sponsor-center div p{
+    height: calc(100% / 3);
+    
+}
+
+.sponsor-center img{
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.sponsor-center hr{
+    width: 15%;
 }
 /* ------------------------------------------------------------- */
 
@@ -360,6 +376,7 @@ header{
 
 footer{
     background-color: black;
+    height: 400px;
 }
 
 .footer-row{
