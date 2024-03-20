@@ -106,15 +106,19 @@ header{
     margin: 7rem auto;
 }
 
-.user-plan, .column-left, .column-center, .column-right,  .enterprise-offer{
+.column-left, .column-center, .column-right,  .enterprise-offer{
     border: solid 1px grey;
 }
 
+.user-plan p{
+    border-bottom: 1px solid grey;
+}
 .row-offer{
     width: 1200px;
     height: 600px;
     margin: 0 auto;
     display: flex;
+    gap: 4rem;
 }
 
 .row-offer a{
@@ -122,16 +126,28 @@ header{
     text-decoration-line: underline;
 }
 
-
-
 .row-offer hr{
     width: 10%;
+    color: grey;
+}
+
+.user-plan hr{
+    width: 100%;
+}
+
+.user-plan{
+    text-align: center;
+}
+
+.row-offer p{
+    line-height: 2rem;
 }
 
 .enterprise-offer{
     width: 1200px;
     margin: 0 auto;
 }
+
 
 
 
@@ -369,7 +385,32 @@ header{
 
 /* FAQ STYLE ------------------------------------------------------- */
 .faq{
-    background-color: brown;
+    height: 400px;
+}
+
+.faq h3{
+    padding: 3rem;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+
+.question{
+    border-bottom: 1px solid rgb(182, 182, 182);
+    border-top:1px solid rgb(182, 182, 182) ;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    display: flex;
+}
+
+.question i{
+    margin-left: 8rem;
+}
+
+.question p{
+    width: 40%;
 }
 /* ------------------------------------------------------------------- */
 
