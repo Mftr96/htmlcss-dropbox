@@ -73,7 +73,7 @@ header{
 /* dimensioni provvisorie perchè senno smarmella */
 .jumbotron img{
     width: 100%;
-    height: 130%;
+    height: 150%;
 }
 
 .blue-button{
@@ -296,7 +296,6 @@ footer{
 }
 
 .footer-row{
-    border: 1px dashed red;
     display: flex;
     justify-content: space-between;
     width: 800px;
