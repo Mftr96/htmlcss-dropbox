@@ -261,8 +261,9 @@ header{
 
 .sponsor-center{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     gap: 2rem;
+    margin: 2rem;
 }
 
 .sponsor-left, .sponsor-center, .sponsor-right{
@@ -319,8 +320,7 @@ header{
 
 
 .sponsor-center div p{
-    height: calc(100% / 3);
-    
+    height: calc(100% / 3);    
 }
 
 .sponsor-center img{
@@ -330,6 +330,7 @@ header{
 
 .sponsor-center hr{
     width: 15%;
+    margin-top: 2rem;
 }
 /* ------------------------------------------------------------- */
 
