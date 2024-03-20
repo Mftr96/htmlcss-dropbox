@@ -92,21 +92,28 @@ header{
 
 /* OFFER PLAN STYLE----------------------------------------------------- */
 
+.offer-plan{
+    width: 100%;
+}
+
+
 .fa-check{
     color: rgb(0, 88, 255);
 }
 .plan-option{
-    text-align: center;
     margin-top: 5rem;
-    border: 1px solid black;
+    width: 1200px;
+    margin: 7rem auto;
 }
 
-.user-plan{
+.user-plan, .column-left, .column-center, .column-right,  .enterprise-offer{
     border: solid 1px grey;
 }
 
 .row-offer{
-    border: 1px solid rgb(85, 17, 85);
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -115,24 +122,15 @@ header{
     text-decoration-line: underline;
 }
 
-.plan-row-left{
-    border: 1px dashed crimson;
-}
 
-.plan-row-center{
-    border: 1px solid blue;
-}
-
-.plan-row-right{
-    border: 1px solid rgb(255, 0, 255);
-}
 
 .row-offer hr{
     width: 10%;
 }
 
 .enterprise-offer{
-    border: 1px solid black;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -252,6 +250,8 @@ header{
     width: 100%;
     height: 600px;
     display: flex;
+    background-color: rgb(245, 245, 245);
+
 }
 
 .sponsor-left, .sponsor-right{
@@ -264,6 +264,7 @@ header{
     flex-direction: column; 
     gap: 2rem;
     margin: 2rem;
+    background-color: rgb(245, 245, 245);
 }
 
 .sponsor-left, .sponsor-center, .sponsor-right{
@@ -347,7 +348,6 @@ header{
     width: 600px;
     margin: 0 auto;
     /* text-align: center; */
-    border: 1px solid crimson;
     display: flex;
     gap: 8rem;
     position: absolute;
