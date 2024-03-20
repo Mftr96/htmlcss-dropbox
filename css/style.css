@@ -145,8 +145,29 @@ header{
 
 .enterprise-offer{
     width: 1200px;
-    margin: 0 auto;
+    margin: 4rem auto;
 }
+
+#team {
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 0;
+}
+
+.enterprise-offer *:not(strong, .blue-button){
+    padding: 1.5rem;
+}
+
+.Enterprise-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ufficio-vendite{
+    background-color: rgb(0, 97, 255);
+    color: white;
+}
+
 
 
 
